@@ -1,38 +1,38 @@
-/* base style */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-img {
-    height: 300px;
+h1, h2 {
+    text-align: center;
 }
 
-.about {
+.container {
+    padding: 28px;
+}
+
+.projects {
     display: flex;
-    padding: 20px;
+    flex-wrap: wrap;
 }
 
-.about-img {
-    position: relative;
+.project {
+    width: 200px;
+    padding: 8px;
+    margin: 10px;
 }
-
-.about-img h1 {
-    position: absolute;
-    top: 65%;
-    left: 20%;
-    color: #fff;
+.project-image {
+    height: 200px;
 }
-
-.about-me {
-    padding: 10px;
-}
-
-.links {
+.project-name { 
     display: flex;
-    justify-content: flex-end   ;
-}
-
-.links i {
-    font-size: 36px;
-    padding: 5px;
+    justify-content: space-between;
+    flex-direction: row;
 }
